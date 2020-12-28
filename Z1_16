@@ -1,0 +1,26 @@
+class Main {
+    public static void Z1_16(String[] args) {
+     int number = 46964;
+        int a = number / 10000; //4
+        
+        int b1 = number / 1000; //46
+        int b = b1 % 10; //6
+        
+        int c1 = number / 100; //469
+        int c = c1 % 10; //9
+        
+        int d1 = number / 10; //4696
+        int d = d1 % 10; //6
+        
+        int e = number % 10; // 4
+        
+        if (a == e && b == d)
+        {
+            System.out.print ("This is Palyndrome");
+        }
+        else
+        {
+            System.out.print ("This is not Palyndrome");
+        }
+    }
+}
