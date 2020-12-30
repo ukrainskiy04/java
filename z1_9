@@ -1,0 +1,23 @@
+class Main {
+    public static void z1_9() {
+        int number = 219;
+        
+        int a = number / 100;
+        
+        int b1 = number / 10;
+        int b = b1 % 10;
+        
+        int c = number % 10;
+        
+        
+        int new_number = c * 100 + a * 10 + b;
+        
+        System.out.print (new_number);
+
+        
+         
+    }
+    public static void main (String[] args) 
+    { z1_9();
+    }
+}
