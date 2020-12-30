@@ -1,0 +1,24 @@
+class Main {
+    public static void z1_11() {
+        int number = 105;
+            int a = number / 100; //2
+        
+            int b1 = number / 10; //21
+            int b = b1 % 10; //1
+            
+            int c = number % 10; //3
+        
+        int new_number = b * 100 + a * 10 + c;
+        System.out.print (new_number);
+        
+          
+                
+        
+                
+                
+               
+    }
+    public static void main (String[] args) 
+    { z1_11();
+    }
+}
