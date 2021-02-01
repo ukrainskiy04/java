@@ -1,0 +1,40 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+import java.lang.Math.*;
+
+import static java.lang.Math.abs;
+
+
+public class Solution {
+
+
+
+
+    public static void arr_function() {
+        int[] numbers = {
+                };
+
+
+        for (int i = 0; i < numbers.length; i++)
+        {
+            System.out.print(numbers[i] + ", ");
+        }
+
+
+
+        
+    }
+
+
+    public static void z2_8()
+    {
+
+
+        Scanner sc = new Scanner(System.in);
+       
+
+        System.out.print(y);
+    }
